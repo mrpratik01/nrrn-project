@@ -1,0 +1,279 @@
+*{
+    font-family: 'merriweather', serif;
+}
+.aboutus-background{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.892)), url(aboutus-background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    color: white;
+    width: auto;
+}
+
+.aboutus-background h2{
+    font-weight: 700;
+    font-size: 38px;
+    padding-top: 180px;
+}
+
+.aboutus-background p{
+    font-size: 16px;
+}
+
+.aboutus-second-part{
+    padding: 25px;
+}
+
+.aboutus-second-part h2{
+    color: #0070b8;
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.aboutus-second-part p{
+    padding-top: 200px;
+    font-weight: 400;
+    font-size: 24px;
+}
+.aboutus-second-part img{
+    border: none;
+
+}
+.what-we-do-part-center {
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-left: 160px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #77777717;
+}
+hr{
+    border: 2px solid rgb(0, 95, 154);
+    opacity: 100;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.what-we-do-part img{
+    height: 300px;
+    width: 100%;
+}
+
+.what-we-do-part-text h2{
+    color: #0070b8;
+    font-weight: 700;
+    font-size: 24px;
+}
+.what-we-do-part-text-second h2{
+    margin-top: 30px;
+    color: #0070b8;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.row-background{
+    height: 80px;
+    background-color: #0070b8;
+    width: 100%;
+
+}
+.col-text{
+    margin-left: 150px;
+    font-size: 23px;
+    color: white;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+
+.quick-links{
+    margin-top: 0px;
+    background-color: #77777766;
+    padding: 20px
+
+}
+
+.quick-links h6{
+    font-weight: 700;
+    font-size: 24px;
+    padding-left: 200px;
+
+}
+
+.quick-links a{
+    font-weight: 400;
+    font-size: 16px;
+    display: grid;
+    text-decoration: none;
+    color: black;
+    width: 300px;
+    padding: 10px;
+    padding-left: 200px; 
+}
+
+.quick-links iframe{
+    margin-left: 500px;
+}
+.footer p{
+    font-weight: 700;
+    font-size: 24px;
+    background-color: #77777766;
+    margin-bottom: 1px;
+    padding-left: 500px;
+}
+@media only screen and (max-width: 480px) {
+    .aboutus-background{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.447), rgba(0, 0, 0, 0.892)), url(aboutus-background.jpeg);
+        background-position: center;
+        height: 300px;
+        width: 100%;
+        color: white;
+    }
+    
+    .aboutus-background h2{
+        font-weight: 700;
+        font-size: 38px;
+        padding-top: 70px;
+    }
+
+    .aboutus-background p{
+        font-size: 13px;
+    }
+
+    .aboutus-second-part{
+        padding: 25px;
+    }
+
+    .aboutus-second-part h2{
+        color: #0070b8;
+        margin-top: 15px;
+        font-weight: 800;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .aboutus-second-part p{
+        font-weight: 400;
+        font-size: 13px;
+        padding-top: 0px;
+    }
+    .aboutus-second-part img{
+        border: none;
+    }
+
+    .what-we-do-part img{
+        height: 300px;
+        width: 100%;
+    }
+
+    .what-we-do-part-text h2{
+        color: #0070b8;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .what-we-do-part-text p{
+        font-size: 16px;
+    }
+
+    .what-we-do-part-text-second h2{
+        margin-top: 30px;
+        color: #0070b8;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .row-background{
+        height: 80px;
+        background-color: #0070b8;
+        width: 100%;
+    
+    }
+
+    .quick-links{
+        margin-top: 0px;
+        background-color: #77777766;
+        padding: 20px
+    
+    }
+    
+    .quick-links h6{
+        font-weight: 700;
+        font-size: 16px;
+    }
+    
+    .quick-links a{
+        display: grid;
+        text-decoration: none;
+        color: black;
+        
+    }
+    .quick-links iframe{
+        margin-left: 0px;
+        height: 150px;
+        width: 150px;
+    }
+    .quick-links{
+        margin-top: 0px;
+        background-color: #77777766;
+        padding: 20px
+    
+    }
+    
+    .quick-links h6{
+        font-weight: 700;
+        font-size: 24px;
+        padding-left: 0px;
+    
+    }
+    
+    .quick-links a{
+        font-weight: 400;
+        font-size: 16px;
+        display: grid;
+        text-decoration: none;
+        color: black;
+        width: 80px;
+        padding: 10px;
+        padding-left: 0px; 
+    }
+
+    .footer p{
+        font-weight: 500;
+        font-size: 13px;
+        background-color: #77777766;
+        margin-bottom: 1px;
+        padding-left: 0px;;
+    }
+    .col-text{
+        margin-left: 0px;
+        font-size: 8px;
+        font-weight: 500;
+        color: white;
+        margin-top: 30px;
+    }
+    .what-we-do-part-center {
+        margin-left: 3px;
+        margin-top: 0px;
+        padding-left: 25px;
+        padding-top: 30px;
+        padding-bottom: 0px;
+        background-color: #77777766;
+    }
+
+    .what-we-do-part-center {
+        width: 100%;
+        margin-top: 0px;
+        margin-left: 0px;
+        padding-left: 25px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: #77777717;
+    }
+    
+
+
+}

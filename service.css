@@ -1,0 +1,146 @@
+.third-part-services h3{
+    color: #0070b8;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 25px;
+
+}
+.service-background img{
+    background-image: linear-gradient(to bottom, #0072b8 0%, #2e2f30 100%);
+}
+
+.card-text h5{
+    color: #0070b8;
+    font-weight: 700;
+}
+
+hr{
+    border: 2px solid rgb(0, 95, 154);
+    opacity: 100;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.row-background{
+    background-color: #0070b8;
+    height: 100px;
+    width: 100%;
+
+}
+.col-text{
+    margin-left: 150px;
+    font-size: 23px;
+    color: white;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+
+
+.quick-links{
+    margin-top: 0px;
+    background-color: #77777766;
+    padding: 20px
+
+}
+
+.quick-links h6{
+    font-weight: 700;
+    font-size: 24px;
+    padding-left: 200px;
+
+}
+
+.quick-links a{
+    font-weight: 400;
+    font-size: 16px;
+    display: grid;
+    text-decoration: none;
+    color: black;
+    width: 300px;
+    padding: 10px;
+    padding-left: 200px; 
+}
+
+.quick-links iframe{
+    margin-left: 500px;
+}
+.footer p{
+    font-weight: 700;
+    font-size: 24px;
+    background-color: #77777766;
+    margin-bottom: 1px;
+    padding-left: 500px;
+}
+@media only screen and (max-width: 480px) {
+    .row-background{
+        height: 80px;
+        background-color: #0070b8;
+        width: 100%;
+    
+    }
+
+    .quick-links{
+        margin-top: 0px;
+        background-color: #77777766;
+        padding: 20px
+    
+    }
+    
+    .quick-links h6{
+        font-weight: 700;
+        font-size: 16px;
+    }
+    
+    .quick-links a{
+        display: grid;
+        text-decoration: none;
+        color: black;
+        
+    }
+    .quick-links iframe{
+        margin-left: 0px;
+        height: 150px;
+        width: 150px;
+    }
+    .quick-links{
+        margin-top: 0px;
+        background-color: #77777766;
+        padding: 20px
+    
+    }
+    
+    .quick-links h6{
+        font-weight: 700;
+        font-size: 24px;
+        padding-left: 0px;
+    
+    }
+    
+    .quick-links a{
+        font-weight: 400;
+        font-size: 16px;
+        display: grid;
+        text-decoration: none;
+        color: black;
+        width: 80px;
+        padding: 10px;
+        padding-left: 0px; 
+    }
+
+    .footer p{
+        font-weight: 500;
+        font-size: 13px;
+        background-color: #77777766;
+        margin-bottom: 1px;
+        padding-left: 0px;;
+    }
+    .col-text{
+        margin-left: 0px;
+        font-size: 8px;
+        font-weight: 500;
+        color: white;
+        margin-top: 30px;
+    }
+}
