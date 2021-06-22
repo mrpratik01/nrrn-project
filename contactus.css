@@ -113,6 +113,12 @@ body{
         width: 100%;
     
     }
+    .col-text{
+        margin-left: 0px;
+        font-size: 8px;
+        font-weight: 500;
+        color: white;
+    }
 
     .quick-links{
         margin-top: 0px;
